@@ -1,0 +1,7 @@
+fetch-retry-mintimeout=20000
+fetch-retry-maxtimeout=120000
+registry=http://registry.npmjs.org/
+strict-ssl=false
+# Add your auth tokens locally — never commit them:
+# //registry.npmjs.org/:_authToken=...
+# //asia-south1-npm.pkg.dev/<org>/<repo>/:_authToken=...

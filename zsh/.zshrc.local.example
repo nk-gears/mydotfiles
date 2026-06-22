@@ -1,0 +1,3 @@
+# Copy this to ~/.zshrc.local on the new machine and fill in real values.
+# ~/.zshrc.local is gitignored — it is sourced from .zshrc but never committed.
+export CIRCLE_CI_TOKEN=

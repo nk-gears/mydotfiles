@@ -1,0 +1,355 @@
+tap "antoniorodr/memo"
+tap "askcloudarchitech/askcloudarchitech"
+tap "aws/tap"
+tap "azure/functions"
+tap "buddyh/tap"
+tap "dart-lang/dart"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "mongodb/brew"
+tap "qownnotes/qc"
+tap "shivammathur/php"
+tap "txn2/tap"
+tap "xavidop/tap", "git@github.com:xavidop/homebrew-tap.git"
+# Run your GitHub Actions locally
+brew "act"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9", link: false
+# Client for Amazon Elastic Beanstalk web service
+brew "aws-elasticbeanstalk", link: false
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
+# CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM
+brew "aws-sam-cli"
+# Official Amazon AWS command-line interface
+brew "awscli", link: false
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Get/set bluetooth power and discoverable state
+brew "blueutil"
+# Freely available high-quality data compressor
+brew "bzip2"
+# Emacs dependency management
+brew "cask"
+# Linux virtual machines
+brew "lima"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Postgres C API library
+brew "libpq", link: true
+# Dependency Manager for PHP
+brew "composer"
+# JSON, YAML, TOML, XML, and CSV query and modification tool
+brew "dasel"
+# Load/unload environment variables based on $PWD
+brew "direnv"
+# Tool for exploring each layer in a docker image
+brew "dive"
+# Lightweight DNS forwarder and DHCP server
+brew "dnsmasq"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Convert text between DOS, UNIX, and Mac formats
+brew "dos2unix"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Disk usage analyzer with console interface written in Go
+brew "gdu", link: false
+# GitHub command-line tool
+brew "gh"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
+# Distributed revision control system
+brew "git"
+# Git-powered FTP client
+brew "git-ftp"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Toolkit for creating graphical user interfaces
+brew "gtk+3"
+# C++ interface to Pango
+brew "pangomm@2.46"
+# Graphical user interface for smartctl
+brew "gsmartcontrol"
+# Configurable static site generator
+brew "hugo"
+# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "libheif"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Image loading and rendering library
+brew "imlib2"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Domain specific configuration language for defining JSON data
+brew "jsonnet"
+# Convert pixel information into colored ASCII art
+brew "libcaca"
+# Implementation of the file(1) command
+brew "libmagic"
+# Command-line interface to LiveKit
+brew "livekit-cli"
+# Keep your Mac's application settings in sync
+brew "mackup"
+# Mac App Store command-line interface
+brew "mas"
+# Create modern online books from Markdown files
+brew "mdbook"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+# GDI+-compatible API on non-Windows operating systems
+brew "mono-libgdiplus"
+# MP3 player for Linux and UNIX
+brew "mpg123"
+# UNIX movie player
+brew "mplayer"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
+# Open source relational database management system
+brew "mysql-client"
+# NCurses Disk Usage
+brew "ncdu"
+# HTTP/2 C Library
+brew "nghttp2"
+# Manage multiple Node.js versions
+brew "nvm"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Create macOS applications from {Perl,Ruby,sh,Python} scripts
+brew "platypus"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
+# Pretty, minimal and fast ZSH prompt
+brew "pure"
+# Implementation of Telnet and SSH
+brew "putty"
+# Python version management
+brew "pyenv"
+# QR Code generation
+brew "qrencode"
+# Non-interactive SSH password auth
+brew "sshpass"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# Virtual Audio Driver
+cask "blackhole-2ch"
+# E-books management software
+cask "calibre"
+# Developer platform
+cask "dotnet-sdk"
+# File system integration
+cask "macfuse"
+# File system integration
+cask "osxfuse"
+cask "wkhtmltopdf"
+mas "Any File Info", id: 731859284
+mas "app.seashore", id: 1448648921
+mas "CodeTime", id: 1375403613
+mas "Color Picker Plus", id: 1499052260
+mas "com.echodot.Red", id: 1491764008
+mas "DevCleaner", id: 1388020431
+mas "Disk Speed Test", id: 425264550
+mas "DocxEditor", id: 588286789
+mas "Download Shuttle", id: 847809913
+mas "DU Recorder", id: 1512565587
+mas "EasyRes", id: 688211836
+mas "Ebook Converter", id: 1081457679
+mas "ExifTool Reader", id: 1636199770
+mas "FastVPN", id: 1419729466
+mas "FE File Explorer", id: 1444382558
+mas "Focus To-Do", id: 1258530160
+mas "ForkLift", id: 412448059
+mas "FTP File Manager", id: 1359525315
+mas "FTP Mounter Lite", id: 1624888791
+mas "GANZ CORTROL Thin Client", id: 1148038534
+mas "Gifski", id: 1351639930
+mas "HelloWeb Free", id: 1113893415
+mas "Hours", id: 895933956
+mas "IDIS Center", id: 731342389
+mas "Image Viewer Deluxe", id: 662539468
+mas "IP Scanner", id: 404167149
+mas "JSON XML Format", id: 1512707568
+mas "KeyPad", id: 1491684442
+mas "LanScan", id: 472226235
+mas "Meditor", id: 1065718148
+mas "Menu Minder", id: 896966895
+mas "mGuard", id: 407185566
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft To Do", id: 1274495053
+mas "Monkey", id: 1030815652
+mas "NextDNS", id: 1464122853
+mas "OhMyStar", id: 1218642292
+mas "Owlfiles", id: 510282524
+mas "PDF Reader", id: 1185380569
+mas "Raycast Companion", id: 6738274497
+mas "Redacted", id: 984968384
+mas "RunCat", id: 1429033973
+mas "SafeHomeCamera", id: 1176788147
+mas "Sequel Ace", id: 1518036000
+mas "Simplenote", id: 692867256
+mas "Snip", id: 1527428847
+mas "Tag Editor Free", id: 984278082
+mas "Telephone", id: 406825478
+mas "The Unarchiver", id: 425424353
+mas "TidyCards", id: 1285199566
+mas "VisualJSON", id: 488709442
+mas "VisualXML", id: 617516344
+mas "VOX", id: 461369673
+mas "WhatsApp", id: 310633997
+mas "Xnip", id: 1221250572
+mas "Yoga Studio", id: 567767430
+vscode "42crunch.vscode-openapi"
+vscode "andyyaldoo.vscode-json"
+vscode "antfu.goto-alias"
+vscode "anthropic.claude-code"
+vscode "ask-toolkit.alexa-skills-kit-toolkit"
+vscode "atlassian.atlascode"
+vscode "bradlc.vscode-tailwindcss"
+vscode "circleci.circleci"
+vscode "ckolkman.vscode-postgres"
+vscode "continue.continue"
+vscode "dart-code.dart-code"
+vscode "dbaeumer.vscode-eslint"
+vscode "dendron.dendron"
+vscode "dendron.dendron-paste-image"
+vscode "devine-davies.make-hidden"
+vscode "devsense.composer-php-vscode"
+vscode "devsense.intelli-php-vscode"
+vscode "devsense.phptools-vscode"
+vscode "devsense.profiler-php-vscode"
+vscode "dheovani.svg-viewer"
+vscode "esbenp.prettier-vscode"
+vscode "fabianlauer.vs-code-xml-format"
+vscode "foxundermoon.shell-format"
+vscode "francescoanzalone.smart-xml-diff"
+vscode "freecodecamp.freecodecamp-dark-vscode-theme"
+vscode "fruuties.todo-sidebar"
+vscode "gamemodeone.json-compact-prettier"
+vscode "george-alisson.html-preview-vscode"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "google.gemini-cli-vscode-ide-companion"
+vscode "google.geminicodeassist"
+vscode "gruntfuggly.todo-tree"
+vscode "hashicorp.terraform"
+vscode "hediet.vscode-drawio"
+vscode "humao.rest-client"
+vscode "humy2833.ftp-simple"
+vscode "inferrinizzard.prettier-sql-vscode"
+vscode "ioggstream.markdown-mermaid-d3fend"
+vscode "jannisx11.batch-rename-extension"
+vscode "johnpapa.vscode-peacock"
+vscode "kelvin.vscode-sshfs"
+vscode "kevinrose.vsc-python-indent"
+vscode "lewissteele.vscode-sql-lint"
+vscode "liximomo.remotefs"
+vscode "lkytal.flatui"
+vscode "mark-tucker.aws-cli-configure"
+vscode "mathematic.vscode-pdf"
+vscode "mechatroner.rainbow-csv"
+vscode "mongodb.mongodb-vscode"
+vscode "ms-azure-load-testing.microsoft-testing"
+vscode "ms-azuretools.azure-dev"
+vscode "ms-azuretools.vscode-azureappservice"
+vscode "ms-azuretools.vscode-azurecontainerapps"
+vscode "ms-azuretools.vscode-azurefunctions"
+vscode "ms-azuretools.vscode-azureresourcegroups"
+vscode "ms-azuretools.vscode-azurestaticwebapps"
+vscode "ms-azuretools.vscode-azurestorage"
+vscode "ms-azuretools.vscode-azurevirtualmachines"
+vscode "ms-azuretools.vscode-cosmosdb"
+vscode "ms-mssql.data-workspace-vscode"
+vscode "ms-mssql.mssql"
+vscode "ms-mssql.sql-bindings-vscode"
+vscode "ms-mssql.sql-database-projects-vscode"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode.azure-account"
+vscode "ms-vscode.azure-repos"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.remote-repositories"
+vscode "ms-vscode.vscode-node-azure-pack"
+vscode "ms-vscode.vscode-typescript-next"
+vscode "ms-vscode.wasm-dwarf-debugging"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "ms-windows-ai-studio.windows-ai-studio"
+vscode "natizyskunk.sftp"
+vscode "nuxt.mdc"
+vscode "nuxtr.nuxt-vscode-extentions"
+vscode "nuxtr.nuxtr-vscode"
+vscode "oderwat.indent-rainbow"
+vscode "oussma-hamdaoui.simple-ftp"
+vscode "pascalreitermann93.vscode-yaml-sort"
+vscode "pleiades.java-extension-pack-jdk"
+vscode "pmneo.tsimporter"
+vscode "pomber.git-file-history"
+vscode "psaren.vue3-composition-snippets"
+vscode "quicktype.quicktype"
+vscode "qwtel.sqlite-viewer"
+vscode "redhat.java"
+vscode "redhat.vscode-xml"
+vscode "redhat.vscode-yaml"
+vscode "rifi2k.format-html-in-php"
+vscode "ritwickdey.liveserver"
+vscode "rvest.vs-code-prettier-eslint"
+vscode "shardulm94.trailing-spaces"
+vscode "softwaredotcom.swdc-vscode"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "teamsdevapp.vscode-ai-foundry"
+vscode "tht13.html-preview-vscode"
+vscode "tikou-web.gcp-switch-config"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vmware.vscode-boot-dev-pack"
+vscode "vmware.vscode-spring-boot"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "vscjava.vscode-spring-boot-dashboard"
+vscode "vscjava.vscode-spring-initializr"
+vscode "vstirbu.vscode-mermaid-preview"
+vscode "vue.volar"
+vscode "wakatime.vscode-wakatime"
+vscode "wscats.vue"
+vscode "xdebug.php-debug"
+go "github.com/buddyh/alexa-cli/cmd/alexa"
+go "github.com/TBXark/mcp-proxy"
+npm "@google/clasp"
+npm "@google/gemini-cli"
+npm "@openai/codex"
+npm "@railway/cli"
+npm "ask-cli"
+npm "clawdbot"
+npm "corepack"
+npm "ctx7"
+npm "html5-to-pdf"
+npm "local-web-server"
+npm "ngrok"
+npm "openclaw"
+npm "pnpm"
+npm "tsx"
+npm "vercel"
+npm "vue-cli-service"
+npm "yarn"

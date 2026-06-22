@@ -1,0 +1,24 @@
+[user]
+	name = Nirmal
+	email = nirmal_kumar@live.in
+[core]
+	excludesfile = /Users/Nirmal/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/Nirmal/.stCommitMsg
+
+[alias]
+status-all = "!for d in `find . -name \".git\"`; do echo \"\n*** Repository: $d ***\" && git --git-dir=$d --work-tree=$d/.. status; done"
+
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
+	rebase = true
+[rebase]
+	autoStash = true

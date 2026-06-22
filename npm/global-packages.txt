@@ -1,0 +1,17 @@
+@google/clasp
+@google/gemini-cli
+@openai/codex
+@railway/cli
+ask-cli
+clawdbot
+corepack
+ctx7
+html5-to-pdf
+local-web-server
+ngrok
+openclaw
+pnpm
+tsx
+vercel
+vue-cli-service
+yarn
