@@ -1,7 +1,5 @@
-export NVM_DIR="$HOME/.nvm"
-# NVM initialization
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+# mise — manages Node/Python/Java versions (replaces nvm/pyenv/sdkman)
+eval "$(mise activate zsh)"
 export HISTFILE=~/.zsh_history
 #export PATH="/Users/Nirmal/.claude/local:$PATH"
 autoload -U promptinit; promptinit
@@ -96,10 +94,6 @@ alias mk=make
 alias nextt=code ~/projects/appdews/learning/notus-nextjs-main
 #export PATH="/Users/Nirmal/Library/Python/3.8/bin:$PATH"
 
-# Initialize pyenv with error handling
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
 #export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
 # Created by `pipx` on 2021-08-24 11:45:07
@@ -137,9 +131,6 @@ function poetry() {
     fi
 }
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 
 export MEDIUM_ENDPOINT_PREFIX="https://api.medium.com/v1"
@@ -149,11 +140,6 @@ GITHUB_STATUS_REPO="repo name for storing the status of posts to medium.com"
 STORAGE_TYPE=""
 export STORAGE_FILE_PATH="/OPTIONAL/PATH/TO/STATUS/FILE.json"
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
-
-# Use specified Node version with error handling
-if command -v nvm &>/dev/null; then
-  nvm use 22.15.0 2>/dev/null || echo "Warning: Node v22.15.0 not found. Using default Node version." >&2
-fi
 
 export dotnet=/usr/local/share/dotnet/dotnet
 
@@ -176,17 +162,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 alias gpp="git add . && git commit -m 'updated entity' && git push"
-
-# Set Java 11 as default with validation
-java_home_path="$HOME/.sdkman/candidates/java/11.0.29.fx-librca"
-if [ -d "$java_home_path" ]; then
-  export JAVA_HOME="$java_home_path"
-else
-  # Fall back to system Java if the expected version isn't found
-  if command -v java &>/dev/null; then
-    echo "Warning: Java 11.0.29.fx-librca not found at expected location." >&2
-  fi
-fi
 
 #source "/Users/Nirmal/.wasmedge/env"
 #export PATH="/Users/Nirmal/gaianet/bin:$PATH"

@@ -35,25 +35,15 @@ if [ ! -f "$HOME/.npmrc" ]; then
   echo "    Created ~/.npmrc — add your auth tokens there."
 fi
 
-echo "==> Installing nvm + Node"
-if [ ! -d "$HOME/.nvm" ]; then
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-fi
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-nvm install --lts
-nvm use --lts
+echo "==> Symlinking mise config and installing pinned tool versions"
+ln -sf "$DOTFILES_DIR/mise/.mise.toml" "$HOME/.mise.toml"
+eval "$(mise activate bash)"
+mise install
 
 echo "==> Installing global npm packages"
 while read -r pkg; do
   [ -n "$pkg" ] && npm install -g "$pkg"
 done < "$DOTFILES_DIR/npm/global-packages.txt"
-
-echo "==> Installing pyenv Python version"
-if command -v pyenv >/dev/null 2>&1; then
-  pyenv install -s 3.11.4
-  pyenv global 3.11.4
-fi
 
 if command -v code >/dev/null 2>&1; then
   echo "==> Installing VS Code extensions"

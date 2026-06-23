@@ -1,9 +1,6 @@
 
 # Created by `pipx` on 2021-08-24 11:45:07
 export PATH="$PATH:/Users/Nirmal/.local/bin"
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-#eval "$(pyenv init --path)"
 # source "/Users/Nirmal/.wasmedge/env"
 # export PATH="/Users/Nirmal/gaianet/bin:$PATH"
 

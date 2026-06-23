@@ -12,6 +12,10 @@ tap "qownnotes/qc"
 tap "shivammathur/php"
 tap "txn2/tap"
 tap "xavidop/tap", "git@github.com:xavidop/homebrew-tap.git"
+# Polyglot runtime/version manager (Node, Python, Java, etc.) — replaces nvm/pyenv/sdkman
+brew "mise"
+# Fast Node.js package manager
+brew "aube"
 # Run your GitHub Actions locally
 brew "act"
 # Interpreted, interactive, object-oriented programming language
