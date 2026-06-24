@@ -45,15 +45,6 @@ while read -r pkg; do
   [ -n "$pkg" ] && npm install -g "$pkg"
 done < "$DOTFILES_DIR/npm/global-packages.txt"
 
-if command -v code >/dev/null 2>&1; then
-  echo "==> Installing VS Code extensions"
-  while read -r ext; do
-    [ -n "$ext" ] && code --install-extension "$ext"
-  done < "$DOTFILES_DIR/vscode/extensions.txt"
-else
-  echo "    VS Code 'code' CLI not found yet — run vscode/extensions.txt install later (Cmd+Shift+P > Shell Command: Install 'code' command in PATH)."
-fi
-
 cat <<'EOF'
 
 ==> Done with the scriptable part. Manual steps remaining:
