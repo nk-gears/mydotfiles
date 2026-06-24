@@ -36,7 +36,7 @@ cd ~/mydotfiles
 5. Symlink `~/.mise.toml` and run `mise install` to get Node 22.15.0, Python 3.11.4, and Java 11, then install the npm globals
 6. Install your VS Code extensions (if `code` CLI is on PATH)
 
-Note: `.zshrc` now activates mise (`eval "$(mise activate zsh)"`) instead of nvm/pyenv/sdkman — those blocks were removed since mise manages all three.
+Note: `.zshrc` now activates mise (`eva12l "$(mise activate zsh)"`) instead of nvm/pyenv/sdkman — those blocks were removed since mise manages all three.
 
 Then finish manually:
 - Fill in `~/.zshrc.local` (`CIRCLE_CI_TOKEN`, etc.) and `~/.npmrc` (auth tokens)

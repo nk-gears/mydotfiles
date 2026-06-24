@@ -8,6 +8,7 @@ tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "mongodb/brew"
+tap "nikitabobko/tap"
 tap "qownnotes/qc"
 tap "shivammathur/php"
 tap "txn2/tap"
@@ -29,7 +30,7 @@ brew "aws-sam-cli"
 # Official Amazon AWS command-line interface
 brew "awscli", link: false
 # Microsoft Azure CLI 2.0
-brew "azure-cli"
+# brew "azure-cli"  # rarely used
 # Get/set bluetooth power and discoverable state
 brew "blueutil"
 # Freely available high-quality data compressor
@@ -81,7 +82,7 @@ brew "gtk+3"
 # C++ interface to Pango
 brew "pangomm@2.46"
 # Graphical user interface for smartctl
-brew "gsmartcontrol"
+# brew "gsmartcontrol"  # rarely used
 # Configurable static site generator
 brew "hugo"
 # ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
@@ -105,9 +106,9 @@ brew "mackup"
 # Mac App Store command-line interface
 brew "mas"
 # Create modern online books from Markdown files
-brew "mdbook"
+# brew "mdbook"  # rarely used
 # MongoDB Shell to connect, configure, query, and work with your MongoDB database
-brew "mongosh"
+# brew "mongosh"  # rarely used
 # GDI+-compatible API on non-Windows operating systems
 brew "mono-libgdiplus"
 # MP3 player for Linux and UNIX
@@ -133,7 +134,7 @@ brew "poppler"
 # Pretty, minimal and fast ZSH prompt
 brew "pure"
 # Implementation of Telnet and SSH
-brew "putty"
+# brew "putty"  # rarely used
 # Python version management
 brew "pyenv"
 # QR Code generation
@@ -146,12 +147,14 @@ brew "tree"
 brew "wget"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# i3-like tiling window manager for macOS
+cask "nikitabobko/tap/aerospace"
 # Virtual Audio Driver
 cask "blackhole-2ch"
 # E-books management software
-cask "calibre"
+# cask "calibre"  # rarely used
 # Developer platform
-cask "dotnet-sdk"
+# cask "dotnet-sdk"  # rarely used
 # File system integration
 cask "macfuse"
 # File system integration
